@@ -1,38 +1,40 @@
-.App {
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Start Header Component */
+ul li {
+  margin: 0 20px;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-transform: capitalize;
+}
+
+.toggle-mode {
+  background-color: white;
+  padding: 8px;
+  font-size: 20px;
   text-align: center;
+  border-radius: 10px;
+  color: black;
 }
+/* End Header Component */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Start Home Component */
+.home {
+  background-image: url(./assets/computer-pink.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* End Home Component */
