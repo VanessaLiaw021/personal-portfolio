@@ -12,6 +12,7 @@ const HeaderWrapper = styled.header`
   align-items: center;
   background-color:  #F8C8DC;
   padding: 25px;
+  border-bottom: 2px solid white;
 `;
 
 //Styled Components for ul

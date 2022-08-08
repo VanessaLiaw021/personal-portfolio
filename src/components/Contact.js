@@ -32,7 +32,7 @@ const Form = styled.form`
 //Contact Component
 const Contact = () => {
   return (
-    <div className="main">
+    <div className="main contact">
       <h2>Contact</h2>
 
       {/* Contact Information */}
