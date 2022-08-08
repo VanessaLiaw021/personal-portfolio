@@ -27,6 +27,21 @@ ul li {
   border-radius: 10px;
   color: black;
 }
+
+.main {
+  margin: 75px 100px;
+}
+
+.main h2 {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.pages {
+  background-color: pink;
+}
 /* End Header Component */
 
 /* Start Home Component */
@@ -38,3 +53,82 @@ ul li {
   height: 100vh;
 }
 /* End Home Component */
+
+/* Start Contact Component */
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-icon {
+  font-size: 30px;
+  color: pink;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+form h3 {
+  font-size: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.name-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.name-group .form-group {
+  margin: 0 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+.form-group #email, .form-group textarea {
+  width: 545px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+input {
+  width: 250px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 15px;
+}
+
+textarea {
+  height: 130px;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+
+form button {
+  margin-top: 10px;
+  width: 60px;
+  padding: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: pink;
+  border: none; 
+  color: black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+/* End Contact Component */
