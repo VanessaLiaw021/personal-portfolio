@@ -47,7 +47,7 @@ ul li {
 .home {
   background-size: cover;
   height: 100vh;
-  padding: 50px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -172,3 +172,16 @@ form button {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 /* End Contact Component */
+
+/* Start Footer Component */
+.footer .icons {
+  font-size: 40px;
+  margin: 0 20px;
+  color: #ff69b4;
+}
+
+.footer p {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+/* End Footer Component */
