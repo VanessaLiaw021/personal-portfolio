@@ -27,7 +27,28 @@ const About = () => {
         <div className="education">
           <h2>Education</h2>
 
-
+          <div className="education-wrapper">
+            <div className="education-content">
+              <h3>Central Piedmont Community College</h3>
+              <p>Associate of Arts in Computer Science</p>
+              <p className="date">AUG 2017 - May 2019</p>
+            </div>
+            <div className="education-content">
+              <h3>University of North Carolina at Charlotte NC</h3>
+              <p>Bachelor of Arts in Computer Science</p>
+              <p className="date">AUG 2019 - DEC 2021</p>
+            </div>
+            <div className="education-content">
+              <h3>University of North Carolina at Charlotte NC</h3>
+              <p>Web Development Bootcamp</p>
+              <p className="date">MAY 2022 - AUG 2022</p>
+            </div>
+            <div className="education-content">
+              <h3>University of North Carolina at Charlotte NC</h3>
+              <p>Master of Information Technology</p>
+              <p className="date">AUG 2022 - PRESENT</p>
+            </div>
+          </div>
         </div>
 
         {/* Skills Section */}

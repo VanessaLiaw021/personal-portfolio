@@ -137,6 +137,38 @@ ul li {
   padding: 40px 0;
 }
 
+.education-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  line-height: 30px;
+}
+
+.education-content {
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.education-content h3 {
+  color: #ff69b4;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.education-content p {
+  font-style: italic;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.education-content .date {
+  font-size: 14px;
+  color: #ff69b4;
+}
+
 .skills {
   padding: 40px 0;
 }
