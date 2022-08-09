@@ -30,7 +30,7 @@ const Header = () => {
       <h1>Vanessa Liaw</h1>
       
       <Nav>
-        <Link to='/'><li>Home</li></Link>
+        <Link to='/personal-portfolio'><li>Home</li></Link>
         <Link to='/about'><li>About</li></Link>
         <Link to='/portfolio'><li>Portfolio</li></Link>
         <Link to='/contact'><li>Contact</li></Link>

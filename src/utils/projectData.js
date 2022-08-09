@@ -12,6 +12,7 @@ const projects = [
         image: Game,
         imageAlt: "Rock Paper Scissor Game Image",
         title: "Rock Paper Scissor Game",
+        description: "A mini game that a user can play against a computer",
         liveSite: "https://vanessaliaw021.github.io/rock-paper-scissor-game/",
         gitHub: "https://github.com/VanessaLiaw021/rock-paper-scissor-game"
     },
