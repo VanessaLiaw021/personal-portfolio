@@ -1,81 +1,53 @@
 //Import required files
 import React from 'react';
+import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import styled from 'styled-components';
-
-//Styled components for contact wrapper
-const ContactWrapper = styled.div`
-  border: 2px solid pink;
-  margin: 50px 30px;
-  width: 250px;
-  text-align: center;
-  padding: 20px 0;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-`; 
-
-//Styled components for form 
-const Form = styled.form`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid pink;
-  border-radius: 10px;
-  width: 50%;
-  margin: 20px auto;
-  padding: 35px 20px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-`;
+import { faLinkedin, faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 
 //Contact Component
 const Contact = () => {
   return (
-    <div className="main contact">
-      <h2>Contact</h2>
+    <>
+      <div className="main contact">
+        <h2>Let's Get In Touch!</h2>
 
-      {/* Contact Information */}
-      <div className="contact-item">
-        <ContactWrapper className="contact">
-          <FontAwesomeIcon icon={ faEnvelope } className="contact-icon" />
-          <p>vliaw@gmail.com</p>
-        </ContactWrapper>
-        <ContactWrapper className="contact">
-          <FontAwesomeIcon icon={ faPhone } className="contact-icon" />
-          <p>(704)-621-5045</p>
-        </ContactWrapper>
-        <ContactWrapper className="contact">
-          <FontAwesomeIcon icon={ faLocationDot } className="contact-icon" />
-          <p>Charlotte, NC</p>
-        </ContactWrapper>
+        {/* Social Media Section */}
+        <div className="social">
+          <a href="https://www.linkedin.com/in/vanessa-liaw-b0a1981a2/" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={ faLinkedin } className="social-icon" />
+          </a>
+          <a href="https://www.facebook.com/vanessa.liaw1" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={ faFacebookSquare } className="social-icon" />
+          </a>
+          <a href="https://www.instagram.com/vanessaliaw98/" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={ faInstagramSquare } className="social-icon" />
+          </a>
+        </div>
+
+        {/* Contact Section */}
+        <div className="contact-container">
+          <div className="contact-wrapper">
+            <FontAwesomeIcon icon={ faEnvelope } />
+            <h3>Email</h3>
+            <p>vliaw021@gmail.com</p>
+          </div>
+          <div className="contact-wrapper">
+            <FontAwesomeIcon icon={ faPhone } />
+            <h3>Phone</h3>
+            <p>(704) - 621 - 5045</p>
+          </div>
+          <div className="contact-wrapper">
+            <FontAwesomeIcon icon={ faLocationDot } />
+            <h3>Location</h3>
+            <p>Charlotte, NC</p>
+          </div>
+        </div>
       </div>
-
-      {/* Contact Form */}
-      <Form>
-        <h3>Send Me A Message!</h3>
-        <div className="name-group">
-          <div className="form-group">
-            <label for="firstName">First Name:</label>
-            <input type="text" name="firstName" id="firstName" placeholder="First Name" />
-          </div>
-          <div className="form-group">
-            <label for="lastName">Last Name:</label>
-            <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
-          </div>
-        </div>
-        <div className="form-group">
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email" placeholder="Email" />
-        </div>
-        <div className="form-group">
-          <label>Message:</label>
-          <textarea></textarea>
-        </div>
-        <button type="submit">Send</button>
-      </Form>
-    </div>
+      <Footer />
+    </>
   );
 };
 
+//Export contact component
 export default Contact;
