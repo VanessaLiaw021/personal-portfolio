@@ -91,6 +91,10 @@ ul li {
 .home button:hover {
   transform: scale(1.1);
 }
+
+.view {
+  color: black;
+}
 /* End Home Component */
 
 /* Start About Component */
