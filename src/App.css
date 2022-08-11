@@ -295,6 +295,49 @@ ul li {
   padding: 20px;
   width: 400px;
 }
+
+.contact-me {
+  font-size: 6px;
+}
+
+.form-group {
+  display: flex; 
+  flex-direction: column;
+  margin: 8px 0;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+input {
+  width: 400px;
+  padding-left: 8px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.send {
+  margin-top: 15px;
+  background-color: #ffddf4;
+  border: 1px solid white;
+  padding: 8px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
 /* End Contact Component */
 
 /* Start Footer Component */
