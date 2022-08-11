@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.64d009d5.css",
-    "main.js": "/personal-portfolio/static/js/main.39a47be8.js",
+    "main.css": "/personal-portfolio/static/css/main.dcff575a.css",
+    "main.js": "/personal-portfolio/static/js/main.0fa5d2f0.js",
     "static/media/profile.jpg": "/personal-portfolio/static/media/profile.20c4a45d99c24381ce5f.jpg",
+    "static/media/somewhere.png": "/personal-portfolio/static/media/somewhere.260ffff60ad7969b9b14.png",
     "static/media/avatar.jpg": "/personal-portfolio/static/media/avatar.f45bef387c0d596544ec.jpg",
-    "static/media/somewhere.png": "/personal-portfolio/static/media/somewhere.b520017cf661e466008e.png",
-    "static/media/game.png": "/personal-portfolio/static/media/game.e09f72d42c65235a10d7.png",
-    "static/media/passwordGenerator.png": "/personal-portfolio/static/media/passwordGenerator.f1db2a85d1ce3616aeac.png",
-    "static/media/blastoff.png": "/personal-portfolio/static/media/blastoff.6ab9001715ebf94a1ca5.png",
+    "static/media/e-fit.png": "/personal-portfolio/static/media/e-fit.d58d5b6062ef305e020c.png",
+    "static/media/passwordGenerator.png": "/personal-portfolio/static/media/passwordGenerator.1b3e872f2606f17b27c2.png",
+    "static/media/blastoff.png": "/personal-portfolio/static/media/blastoff.a43c5f60deb29ea0827a.png",
+    "static/media/game.png": "/personal-portfolio/static/media/game.4b125de69902a847ab4f.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.64d009d5.css.map": "/personal-portfolio/static/css/main.64d009d5.css.map",
-    "main.39a47be8.js.map": "/personal-portfolio/static/js/main.39a47be8.js.map"
+    "main.dcff575a.css.map": "/personal-portfolio/static/css/main.dcff575a.css.map",
+    "main.0fa5d2f0.js.map": "/personal-portfolio/static/js/main.0fa5d2f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.64d009d5.css",
-    "static/js/main.39a47be8.js"
+    "static/css/main.dcff575a.css",
+    "static/js/main.0fa5d2f0.js"
   ]
 }
