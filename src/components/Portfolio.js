@@ -8,8 +8,12 @@ import Footer from './Footer';
 const Portfolio = () => {
   return (
     <>
-      <div className="main portfolio">
-        {ProjectList.map(project => <ProjectCard key={project.id} {...project} />)}
+      <div className="main">
+        <h2 className="heading">My Projects</h2>
+
+        <div className="portfolio">
+          {ProjectList.map(project => <ProjectCard key={project.id} {...project} />)}
+        </div>
       </div>
       <Footer />
     </>

@@ -230,19 +230,28 @@ ul li {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 100px 40px;
+  padding: 20px 40px;
+}
+
+.heading {
+  padding-top: 25px;
 }
 
 .card {
   margin: 30px 50px;
-  background-color: white;
-  padding: 20px;
+  background-color:  #F8C8DC;
+  padding: 30px;
   border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
   width: 400px;
-  height: 100px;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -252,10 +261,30 @@ ul li {
   margin: 10px;
 }
 
-.card-button {
+.card ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card ul li {
+  font-size: 30px;
+  margin: 10px;
+  color: #fba0e3;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-button a {
+  color: black;
+}
+
+.card-button a:hover {
+  text-decoration: underline;
 }
 /* End Portoflio Component */
 
