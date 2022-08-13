@@ -11,7 +11,13 @@
 }
 
 /* Start Header Component */
-ul li {
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
   margin: 0 20px;
   color: black;
   font-size: 20px;
@@ -26,6 +32,10 @@ ul li {
   text-align: center;
   border-radius: 10px;
   color: black;
+}
+
+.toggle-mobile {
+  display: none;
 }
 
 .main {
@@ -381,3 +391,46 @@ textarea {
   margin: 10px 0 0 0;
 }
 /* End Footer Component */
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .toggle-mobile {
+    display: block;
+    all: unset;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .mobile-links {
+    position: absolute;
+    display: block;
+    list-style-type: none;
+    background-color:  #F8C8DC;
+    left: 0;
+    top: 75px; 
+    transition: all 0.5s ease-out;
+    width: 100%;
+    border-bottom: 1px solid white;;
+  }
+
+  .mobile-links li {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.5s ease;
+    border-top: 1px solid white;
+    font-size: 20px;
+  }
+}

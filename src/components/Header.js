@@ -1,9 +1,9 @@
 //Import required packages
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 //Styled Component for header
 const HeaderWrapper = styled.header`
@@ -25,18 +25,22 @@ const Nav = styled.ul`
 //Header Component
 const Header = () => {
 
+  const [isMobile, setMobile] = useState(false);
+
   return (
     <HeaderWrapper>
-      <h1>Vanessa Liaw</h1>
+      <h1 className="logo">Vanessa Liaw</h1>
       
-      <Nav>
+      <ul className={isMobile ? "mobile-links" : "nav-links"} onClick={() => setMobile(false)}>
         <Link to='/personal-portfolio'><li>Home</li></Link>
         <Link to='/about'><li>About</li></Link>
         <Link to='/portfolio'><li>Portfolio</li></Link>
         <Link to='/contact'><li>Contact</li></Link>
-      </Nav>
+      </ul>
 
-      <FontAwesomeIcon icon={faMoon} className='toggle-mode'/>
+      <button className="toggle-mobile" onClick={() => setMobile(!isMobile)}>
+        {isMobile ? <FontAwesomeIcon icon={ faXmark } /> : <FontAwesomeIcon icon={ faBars } />}
+      </button>
     </HeaderWrapper>
   );
 };
