@@ -35,6 +35,7 @@ const projects = [
             <FontAwesomeIcon icon={ faCss3Alt } />,
             <FontAwesomeIcon icon= { faJsSquare } />
         ],
+        description: "Can't think of a password, let this application help you decide a password",
         liveSite: "https://vanessaliaw021.github.io/password-generator/",
         gitHub: "https://github.com/VanessaLiaw021/password-generator-app"
     },
@@ -49,6 +50,7 @@ const projects = [
             <FontAwesomeIcon icon={ faBootstrap } />,
             <DiJqueryLogo />
         ],
+        description: "Learn about a specific country data and their current weather",
         liveSite: "https://jthefox.github.io/somewhere-project/",
         gitHub: "https://github.com/JtheFox/somewhere-project"
     },
@@ -63,6 +65,7 @@ const projects = [
             <DiNodejsSmall />,
             <FontAwesomeIcon icon={ faDatabase } />
         ],
+        description: "If your interested about space launch, this is thto view",
         liveSite: "https://blastoff2.herokuapp.com/",
         gitHub: "https://github.com/JtheFox/blastoff"
     },
@@ -77,6 +80,7 @@ const projects = [
             <FontAwesomeIcon icon={ faReact }/>,
             <FontAwesomeIcon icon={ faNode } />
         ],
+        description: "A website that user can learn about exercising properly, but can also buy our E-Fit merchandise",
         liveSite: "https://polar-shelf-24197.herokuapp.com/",
         gitHub: "https://github.com/VanessaLiaw021/E-Fit"
     }

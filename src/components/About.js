@@ -7,6 +7,16 @@ import { faHtml5, faCss3Alt, faJs, faBootstrap, faReact, faNode, faSquareGithub 
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { DiJqueryLogo, DiMongodb, DiNodejsSmall, DiGit } from 'react-icons/di';
 
+const Education = ({ name, degree, date }) => {
+  return (
+    <>
+      <h3>{name}</h3>
+      <p>{degree}</p>
+      <p className="date">{date}</p>
+    </>
+  );
+};
+
 //About Component
 const About = () => {
   return (
@@ -30,24 +40,16 @@ const About = () => {
 
           <div className="education-wrapper">
             <div className="education-content">
-              <h3>Central Piedmont Community College</h3>
-              <p>Associate of Arts in Computer Science</p>
-              <p className="date">AUG 2017 - May 2019</p>
+              <Education name="University of North Carolina at Charlotte NC" degree="Master of Information Technology" date="AUG 2022 - PRESENT" />
             </div>
             <div className="education-content">
-              <h3>University of North Carolina at Charlotte NC</h3>
-              <p>Bachelor of Arts in Computer Science</p>
-              <p className="date">AUG 2019 - DEC 2021</p>
+              <Education name="University of North Carolina at Charlotte NC" degree="Web Development Coding Bootcamp" date="MAY 2022 - AUG 2022" />
             </div>
             <div className="education-content">
-              <h3>University of North Carolina at Charlotte NC</h3>
-              <p>Web Development Bootcamp</p>
-              <p className="date">MAY 2022 - AUG 2022</p>
+              <Education name="University of North Carolina at Charlotte NC" degree="Bachelor of Arts in Computer Science" date="AUG 2019 - DEC 2021" />
             </div>
             <div className="education-content">
-              <h3>University of North Carolina at Charlotte NC</h3>
-              <p>Master of Information Technology</p>
-              <p className="date">AUG 2022 - PRESENT</p>
+              <Education name="Central Piedmont Community College" degree="Associate of Arts" date="AUG 2017 - MAY 2019" />
             </div>
           </div>
         </div>
