@@ -4,7 +4,7 @@ import React from 'react';
 //Project Card Component
 const ProjectCard = (props) => {
   return (
-    <div className="card">
+    <div className="card" key={props.id}>
       <img src={props.image} alt={props.imageAlt} />
       <p>{props.title}</p>
       <ul>

@@ -17,8 +17,9 @@ const About = () => {
         <div className="about-wrapper">
           <div className="about-content">
             <h3>Hi, I'm <span>Vanessa Liaw</span></h3>
-            <p>I'm a <span>Web Developer</span> that wants to focus on <span>Front-End Design/Developer</span> <br></br> role. I am passionate in designing and building a clean website 
-            for users to enjoy. <br></br> Having a elegant website and nice user interface is something I value as a <br></br> web developer and as a user.</p>
+            <p>I'm a <span>Web Developer</span> that wants to focus on <span>Front-End Design/Developer</span> role. I am 
+            passionate in designing and building a clean website for users to enjoy. Having a elegant website and n
+            ice user interface is something I value as a web developer and as a user.</p>
           </div>
           <img src={AvatarPicture} alt=""/>
         </div>

@@ -19,6 +19,18 @@ const Form = styled.form`
   background-color:  #F8C8DC;
   border-radius: 10px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 1028px) {
+    width: 48%;
+  };
+
+  @media (max-width: 768px) {
+    width: 60%;
+  };
+
+  @media (max-width: 425px) and (min-width: 320px) {
+    width: 95%;
+  };
 `;
 
 //Contact Component

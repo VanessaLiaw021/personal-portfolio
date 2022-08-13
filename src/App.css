@@ -123,6 +123,10 @@
   border-radius: 10px;
 }
 
+.about-content {
+  width: 55%;
+}
+
 .about-content h3 {
   font-size: 50px;
   text-align: center;
@@ -393,7 +397,28 @@ textarea {
 /* End Footer Component */
 
 /* Media Queries */
+@media screen and (max-width: 1028px) {
+
+  /* Start About Component */
+  .about-content {
+    width: 70%;
+  }
+
+  .about-content p {
+    margin-bottom: 40px;
+  }
+  /* End About Component */
+}
+
 @media screen and (max-width: 780px) {
+
+  /* Start About Component */
+  .about-content {
+    width: 80%;
+  }
+  /* End About Component */
+
+  /* Start Header Component */
   .logo {
     display: flex;
     justify-content: center;
@@ -433,4 +458,60 @@ textarea {
     transition: all 0.5s ease;
     font-size: 20px;
   }
+  /* End Header Component */
+}
+
+@media screen and (max-width: 425px) {
+
+  /* Start Home Component */
+  .home h2 {
+    font-size: 40px;
+  }
+
+  .home p {
+    font-size: 25px;
+    margin: 0 12px;
+  }
+  /* End Home Component */
+
+  /* Start About Component */
+  .about-content {
+    width: 90%;
+  }
+  /* End About Component */
+
+  /* Start Portfolio Component */
+  .card {
+    width: 400px;
+  }
+  
+  .card img {
+    width: 200px;
+  }
+  /* End Portfolio Component */
+
+  /* Start Contact Component */
+  input, textarea {
+    width: 350px;
+  }
+  /* End Contact Component */
+
+}
+
+@media screen and (max-width: 375px) {
+  
+  /* Start Contact Component */
+  input, textarea {
+    width: 300px;
+  }
+  /* End Contact Component */
+}
+
+@media screen and (max-width: 320px) {
+
+  /* Start Contact Component */
+  input, textarea {
+    width: 270px;
+  }
+  /* End Contact Component */
 }
