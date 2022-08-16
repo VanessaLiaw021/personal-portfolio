@@ -6,7 +6,8 @@ const ProjectCard = (props) => {
   return (
     <div className="card" key={props.id}>
       <img src={props.image} alt={props.imageAlt} />
-      <p>{props.title}</p>
+      <p className="title">{props.title}</p>
+      <p className="description">{props.description}</p>
       <ul>
         {props.tools.map(tool => <li className="tools-list">{tool}</li>)}
       </ul>

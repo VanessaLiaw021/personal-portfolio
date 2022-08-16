@@ -65,7 +65,7 @@ const projects = [
             <DiNodejsSmall />,
             <FontAwesomeIcon icon={ faDatabase } />
         ],
-        description: "If your interested about space launch, this is thto view",
+        description: "Space launch website where user can view upcoming space launch",
         liveSite: "https://blastoff2.herokuapp.com/",
         gitHub: "https://github.com/JtheFox/blastoff"
     },

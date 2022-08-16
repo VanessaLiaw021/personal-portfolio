@@ -257,6 +257,8 @@
   padding: 30px;
   border-radius: 10px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  /* width: 455px; */
+  border: 1px solid white;
 }
 
 .card:hover {
@@ -270,9 +272,23 @@
 }
 
 .card p {
-  font-size: 20px;
   text-align: center;
   margin: 10px;
+}
+
+.card .title {
+  color: #ff69b4;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.card .description {
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px 0;
 }
 
 .card ul {
@@ -284,7 +300,7 @@
 .card ul li {
   font-size: 30px;
   margin: 10px;
-  color: #fba0e3;
+  color: #ff69b4;
 }
 
 .card-button {
@@ -298,6 +314,7 @@
 }
 
 .card-button a:hover {
+  color: #ff69b4;
   text-decoration: underline;
 }
 /* End Portoflio Component */
