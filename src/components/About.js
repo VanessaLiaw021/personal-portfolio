@@ -7,6 +7,7 @@ import { faHtml5, faCss3Alt, faJs, faBootstrap, faReact, faNode, faSquareGithub 
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { DiJqueryLogo, DiMongodb, DiNodejsSmall, DiGit } from 'react-icons/di';
 
+//Education Component
 const Education = ({ name, degree, date }) => {
   return (
     <>
@@ -28,8 +29,11 @@ const About = () => {
           <div className="about-content">
             <h3>Hi, I'm <span>Vanessa Liaw</span></h3>
             <p>I'm a <span>Web Developer</span> that wants to focus on <span>Front-End Design/Developer</span> role. I am 
-            passionate in designing and building a clean website for users to enjoy. Having a elegant website and n
-            ice user interface is something I value as a web developer and as a user.</p>
+            passionate in designing and building a clean website for users to enjoy. Having a elegant website and nice user 
+            interface is something I value as a web developer and as a user. I graudte from University of North Carolina at
+            Charlotte with a Bachelor in Computer Science and concentrating in Information Technology. I am also a recent 
+            graduate from University of North Carolina at Charlotte Web Development Coding Bootcamp where I learn about 
+            various tools/technology for becoming a web developer.</p>
           </div>
           <img src={AvatarPicture} alt=""/>
         </div>
