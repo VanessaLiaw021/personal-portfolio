@@ -56,18 +56,24 @@ const Contact = () => {
         {/* Contact Section */}
         <div className="contact-container">
           <div className="contact-wrapper">
-            <FontAwesomeIcon icon={ faEnvelope } />
-            <h3>Email</h3>
+            <div className="contact-icons">
+              <FontAwesomeIcon icon={ faEnvelope } className="contact-icon" />
+              <h3>Email</h3>
+            </div>
             <p>vliaw021@gmail.com</p>
           </div>
           <div className="contact-wrapper">
-            <FontAwesomeIcon icon={ faPhone } />
-            <h3>Phone</h3>
+            <div className="contact-icons">
+              <FontAwesomeIcon icon={ faPhone } className="contact-icon" />
+              <h3>Phone</h3>
+            </div>
             <p>(704) - 621 - 5045</p>
           </div>
           <div className="contact-wrapper">
-            <FontAwesomeIcon icon={ faLocationDot } />
-            <h3>Location</h3>
+            <div className="contact-icons">
+              <FontAwesomeIcon icon={ faLocationDot } className="contact-icon" />
+              <h3>Location</h3>
+            </div>
             <p>Charlotte, NC</p>
           </div>
         </div>
