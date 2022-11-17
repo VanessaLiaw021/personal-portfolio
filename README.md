@@ -15,9 +15,9 @@ This is Vanessa's Liaw personal portfolio website to show off her skills and pro
 
 ## Resources 
 
-- [GitHub Repo]()
+- [GitHub Repo](https://github.com/VanessaLiaw021/personal-portfolio)
 
-- [Live Site]()
+- [Live Site](https://vanessaliaw021.github.io/personal-portfolio/)
 
 ## Authors and Acknowledgement 
 
